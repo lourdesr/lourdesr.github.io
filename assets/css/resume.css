@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+a{
+    color:black;
+}
+.resume {
+    margin: 0 auto;
+    max-width: 75rem;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    font-weight: 200;
+    padding: 2rem;
+    justify-content: space-around;
+    line-height: 0%;
+}
+
+.user-contact {
+    flex: 1;
+    flex-direction: column;
+    min-width: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: 0.9rem;
+    line-height: 0%;
+  }
+
+  .user-info {
+    flex: 2;
+    min-width: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0%;
+    padding-left: 7.5rem;
+  }
+
+  .user-info .desc {
+      font-size: 0.9rem;
+  }
+
+  .ref-links{
+      display:flex;
+      flex-flow: row nowrap;
+      line-height: 2.5rem;
+      justify-content: center;
+  }
+
+  .ref-links > div {
+      margin: 0.9rem;
+  }
+
+
+@media print {
+    .user-info {
+        flex: 2;
+        min-width: 23rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 0%;
+        padding-left: 0px;
+      }
+
+      .uc-tab {
+          display: none;
+      }
+}
+
+  @media (max-width: 400px) {
+    .user-info {
+        flex: 2;
+        min-width: 23rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 0%;
+        padding-left: 0px;
+      }
+    .user-contact {
+        flex: 1;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        line-height: 0%;
+      }
+
+    .ref-links{
+            display:flex;
+            flex-flow: row nowrap;
+            line-height: 2rem;
+            justify-content: center;
+            font-size:2.5rem;
+
+    }
+    a:hover{
+        color: blue;
+        font-size:3rem;
+    }
+
+  }
