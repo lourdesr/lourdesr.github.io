@@ -86,3 +86,14 @@ html,body{
 .user-contact > td {
     margin-left: 10px;
 }
+
+.footer {
+    padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 0.4em;
+}
