@@ -141,11 +141,17 @@ a:after {
 .skills{
     background-color: white;
 }
-
+.sticky-content {
+    min-height: calc(100vh - 210px);
+}
+.sticky-footer {
+    height: 20px;
+    
+}
 
 #footer {
-	background-color: #2f2f2f;
-	padding-top: 15px;
+    background-color: #2f2f2f;
+    padding-top: 15px;
 }
 
 #footer p {
