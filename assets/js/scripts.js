@@ -16,6 +16,12 @@ $.when( $.ready ).then(function() {
                     
                     $(this).animate({'opacity':'1'},1000);
                         
+                //https://economictimes.indiatimes.com/jobs/sap-labs-india-believes-in-fostering-a-diverse-culture/articleshow/64823593.cms
+
+                //http://www.greatplacetowork.in/best-work-places/asia-best-workplaces-2018/
+
+                //https://www.sap.com/canada/products/cloud-customer-engagement.html
+
                 }
                 
             }); 
@@ -28,4 +34,5 @@ $.when( $.ready ).then(function() {
     });
 
 });
+
 
