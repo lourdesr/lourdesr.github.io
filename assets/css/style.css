@@ -144,7 +144,37 @@ a:after {
 .skills{
     background-color: white;
 }
+.typing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.typed {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    font-size: 28px;
+}
 
+.type-cursor {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.home-links > a {
+    color: black;
+    font-size: 18px;
+}
+.home-links > a:hover{
+    font-size: 22px;
+}
+.ilink{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 #footer {
 	background-color: #2f2f2f;
